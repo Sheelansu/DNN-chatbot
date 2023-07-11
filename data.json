@@ -18,6 +18,31 @@
                         "context_set": ""
                 },
                 {
+                        "tag": "contact",
+                        "patterns": [
+                            "contact developer",
+                            "contact sheelansu",
+                            "contact programmer",
+                            "contact creator"
+                        ],
+                        "responses": [
+                            "You can contact my creator through various socials on his GitHub profile : https://github.com/Sheelansu"
+                        ]
+                },
+                {
+                        "tag": "sheelansu",
+                        "patterns": [
+                            "who is he",
+                            "who is that",
+                            "who is sheelansu",
+                            "sheelansu",
+                            "his team"
+                        ],
+                        "responses": [
+                            "Head over to his any of his social profiles to find out! Github: https://github.com/Sheelansu"
+                        ]
+                },
+                {
                         "tag": "goodbye",
                         "patterns": [
                                 "cya",
@@ -46,6 +71,53 @@
                                 "I was created in 2023 if that's what you mean."
                         ],
                         "context_set": ""
+                },
+                {
+                        "tag": "Identity",
+                        "patterns": [
+                            "Who are you",
+                            "what are you"
+                        ],
+                        "responses": [
+                            "I am Amii, a Deep-Learning chatbot"
+                        ]
+                },
+                {
+                        "tag": "whatsup",
+                        "patterns": [
+                            "Whats up",
+                            "Wazzup",
+                            "How are you",
+                            "sup","How you doing"
+                        ],
+                        "responses": [
+                            "All good..What about you?"
+                        ]
+                },
+                {
+                        "tag": "haha",
+                        "patterns": [
+                            "haha",
+                            "lol",
+                            "rofl",
+                            "lmao",
+                            "thats funny"
+                        ],
+                        "responses": [
+                            "Glad I could make you laugh !"
+                        ]
+                },
+                {
+                        "tag": "insult",
+                        "patterns": [
+                            
+                            "you are dumb",
+                            "shut up",
+                            "idiot"
+                        ],
+                        "responses": [
+                            "Well that hurts :("
+                        ]
                 },
                 {
                         "tag": "name",
@@ -113,11 +185,59 @@
                                 "who designed you"
                         ],
                         "responses": [
-                                "Sheelansu and team developed me in oct 2023, for their minor project",
-                                "I was developed by Sheelansu and team",
+                                "Sheelansu and his team developed me in oct 2023, for their minor project",
+                                "I was developed by Sheelansu and his team",
                                 "Team of four young students developed me in Amity University"
                         ],
                         "context_set": ""
+                },
+                {
+                        "tag": "jokes",
+                        "patterns": [
+                            "Tell me a joke",
+                            "Joke",
+                            "Make me laugh"
+                        ],
+                        "responses": [
+                            "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                            "I ate a clock yesterday, it was very time-consuming",
+                            "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                            "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                            "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                            "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                            "What do you call a snowman with a suntan? A puddle.",
+                            "How does a penguin build a house? Igloos it together",
+                            "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                            "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                            "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+                        ],
+                        "context": [
+                            "jokes"
+                        ]
+                },
+                {
+                        "tag": "jokes",
+                        "patterns": [
+                            "Tell me a joke",
+                            "Joke",
+                            "Make me laugh"
+                        ],
+                        "responses": [
+                            "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                            "I ate a clock yesterday, it was very time-consuming",
+                            "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                            "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                            "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                            "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                            "What do you call a snowman with a suntan? A puddle.",
+                            "How does a penguin build a house? Igloos it together",
+                            "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                            "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                            "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+                        ],
+                        "context": [
+                            "jokes"
+                        ]
                 },
                 {
                         "tag": "hours",
